@@ -29,8 +29,8 @@ class FindMyIPhone(object):
 
         self.devices = []
         self.debug = debug
-        self.username = username
-        self.password = password
+        self.username = cdieg0@hotmail.com
+        self.password = Lopez1109
         self.get_partition()
         self.update_devices()
     
@@ -43,9 +43,9 @@ class FindMyIPhone(object):
                 "buildVersion":"145",
                 "deviceUDID":"0000000000000000000000000000000000000000",
                 "inactiveTime":2147483647,
-                "osVersion":"4.2.1",
+                "osVersion":"8.4",
                 "personID":0,
-                "productType":"iPad1,1"
+                "productType":"iPhone5s,1"
             }
         })
         headers, content = self.post('/fmipservice/device/%s/initClient' % self.username, body, None, True)
